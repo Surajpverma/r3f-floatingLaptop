@@ -5,7 +5,7 @@ export default function Experience() {
     return <>
         <Environment preset='city' />
 
-        <color args={["#A8C1D1"]} attach="background" />
+        <color args={["#6A87A5"]} attach="background" />
 
         <PresentationControls
             global
@@ -25,7 +25,7 @@ export default function Experience() {
                     width={2.5}
                     height={1.65}
                     intensity={65}
-                    color={"#A8C1D1"}
+                    color={"#F09BA7"}
                     rotation={[-0.1, Math.PI, 0]}
                     position={[0, 0.55, -1.15]}
                 />
@@ -33,15 +33,16 @@ export default function Experience() {
                     <Html
                         transform
                         wrapperClass='htmlScreen'
-                        distanceFactor={1.17}
+                        distanceFactor={1.01}
                         position={[0, 1.56, -1.4]}
                         rotation-x={-0.256}>
-                        <iframe src='https://spv-portfolio.netlify.app/ ' />
+                        <iframe src='https://spv-3d.netlify.app/' />
                     </Html>
                 </primitive>
                 <Text
                     font='./bangers-v20-latin-regular.woff'
                     fontSize={1}
+                    color={"#E4E1DC"}
                     position={[2, 0.65, 0.75]}
                     rotation-y={-1.5}>
                     SURAJ PAL
