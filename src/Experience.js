@@ -36,7 +36,7 @@ export default function Experience() {
                         distanceFactor={1.01}
                         position={[0, 1.56, -1.4]}
                         rotation-x={-0.256}>
-                        <iframe src='https://spv-3d.netlify.app/' />
+                        <iframe src='https://spv-comic.vercel.app/' />
                     </Html>
                 </primitive>
                 <Text
